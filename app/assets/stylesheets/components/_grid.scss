@@ -1,0 +1,14 @@
+.container-fluid h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+}
+
+.photo-grid {
+  height: 80vh;
+}

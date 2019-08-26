@@ -1,19 +1,36 @@
 .card {
-  height: 175px;
+  display: flex;
+  height: 350px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
   position: relative;
+  border-radius: 5px;
 }
+
+.card-name {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+.card-name h2 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
 .card-description {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  right: 20px;
 }
-.card-description h2 {
-  font-size: 24px;
+
+.card-description ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
 }
+
 .card-link {
   position: absolute;
   top: 0;

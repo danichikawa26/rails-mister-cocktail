@@ -1,0 +1,13 @@
+$orange: #FE5F55;
+
+.banner-content .btn {
+  background-color: transparent;
+  border: 2px solid $orange;
+  &:hover {
+    background-color: $orange;
+  }
+  &:focus, &:active {
+   outline: none !important;
+   box-shadow: none;
+  }
+}
